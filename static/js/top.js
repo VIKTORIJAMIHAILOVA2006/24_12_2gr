@@ -10,6 +10,33 @@ laiks = adrese[2];
 let datums = new Date();
 let datumsVirkne = datums.getDate()+'.'+datums.getMonth()+'.'+datums.getFullYear()+'.'
 
+
+
+async function iegutDatusNoApi(url)
+{
+  let datiNoServera = await fetch(url);
+  let datiJson = await datiNoServera.json();
+}
+
+async function atlasitTop();
+{
+  iegutDatusNoApi('url-mainīgā vērtība');
+  let topsJson = await iegutDatusNoApi('topData');
+  console.log(datiJson);
+
+  for (i=0; i < topsJson.length; i++)
+  {
+      let tabula = dokument.querySelector(".tops");
+
+      tabula.innerHTML = tabula.innerHTML+`
+      <tr id="`+topsJson[i]['id']+`">
+        <td> ` topsJson[i] ['vards']+ `</td>
+        <td> ` topsJson[i] ['klikski']+ `</td>
+        <td> ` topsJson[i] ['laiks']+ `</td>
+        <td> ` topsJson[i] ['datums']+ `</td>
+      </tr>`;
+      }
+  }
 function pievienotTop() {
   let tabula = document.querySelector('.tops');
   tabula.innerHTML = tabula.innerHTML +`
