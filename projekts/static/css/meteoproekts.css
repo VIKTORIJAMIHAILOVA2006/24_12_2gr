@@ -1,0 +1,86 @@
+:root {
+    --main-color: #510055;
+    --secondary-color: #264653;
+    --accent-color: #e76f51;
+    --text-color: #f4a261;
+    --background-color: #f1faee;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4a261;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background: #f4a261;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:#510055
+}
+
+h1 {
+    color:#f4a261;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    font-size: 18px;
+    color: #510055;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid  #510055;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+button {
+    background: color #f1faee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #264653
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #510055;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #5BBCFF
+}
+
+.average-temperature {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 18px;
+    color: #f4a261
+}

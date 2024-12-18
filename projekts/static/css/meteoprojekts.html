@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Meteoprojejts</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container">
+    <h1>Meteopprojekts</h1>
+    <form>
+        <div class="form-group">
+            <label for="temperatūra">Vidējā dienas temperatūra</label>
+            <input type="number" id="temperatūra" name="temperatūra" placeholder="Ievadit temperatūru"
+        </div>
+        <div class="form-group">
+            <label for="city">Pilsēta:</label>
+            <input type="text" id="city" name="city" placeholder="Ievadiet pilsētu">
+        </div>
+        <button id="submit-button">Iesniegt</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pilseta</th>
+                    <th>Temperatūra</th>
+                </tr>
+            </thead>
+            <tbody id="data-table">
+                <!--Dotie pievienosies dinamiski-->
+            </tbody>
+        </table>
+        <p class="average-temperatūra">Videja temperatūra visām dienam:<span id="average-temp"></span>C</p>
+        </div>
+        <script scr="script.js"></script>
+</body>
+</html>
