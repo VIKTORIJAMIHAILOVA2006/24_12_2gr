@@ -1,14 +1,14 @@
 :root {
-    --main-color: #510055;
-    --secondary-color: #264653;
-    --accent-color: #e76f51;
-    --text-color: #f4a261;
-    --background-color: #f1faee;
+    --main-color:  #4c1130;
+    --secondary-color: #6aa84f;
+    --accent-color:#c46e58;
+    --text-color: #45749d;
+    --background-color:#ff00b7;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4a261;
+    background: #c46e58;
     margin: 0;
     padding: 0;
 }
@@ -17,15 +17,15 @@ body {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    background: #f4a261;
+    background:#4c1130;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color:#510055
+    color: #45749d;
 }
 
 h1 {
-    color:#f4a261;
+    color: #6aa84f;
 }
 
 .form-group {
@@ -34,21 +34,21 @@ h1 {
 
 label {
     font-size: 18px;
-    color: #510055;
+    color:#6aa84f;
     font-weight: bold;
 }
 
 input {
     padding: 10px;
-    border: 2px solid  #510055;
+    border: 2px solid  #45749d;
     border-radius: 5px;
     width: 70%;
     font-size: 16px;
 }
 
 button {
-    background: color #f1faee;
-    color: white;
+    background: color#ff00b7;
+    color: rgb(153, 119, 192);
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #264653
+    background-color: #c46e58;
 }
 
 table {
@@ -67,20 +67,20 @@ table {
 }
 
 thead th {
-    background-color: #510055;
-    color: white;
+    background-color:#c46e58;
+    color: rgb(49, 70, 12);
     padding: 10px;
     font-size: 18px;
 }
 
 tbody td {
     padding: 10px;
-    border: 1px solid #5BBCFF
+    border: 1px solid #45749d;
 }
 
 .average-temperature {
     margin-top: 20px;
     font-style: italic;
     font-size: 18px;
-    color: #f4a261
+    color:#45749d;
 }
